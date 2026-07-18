@@ -3,7 +3,7 @@ import { Field, Form, Formik, FormikHelpers, ErrorMessage } from "formik";
 
 import css from "./CreatePostForm.module.css";
 
-export default function PostForm() {
+export default function CreatePostForm() {
   return (
     <Formik initialValues={} onSubmit={} validationSchema={}>
       <Form className={css.form}>
